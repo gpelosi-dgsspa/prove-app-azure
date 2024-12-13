@@ -10,13 +10,13 @@ springdoc:
 
 spring:
   datasource:
-    url: jdbc:sqlserver://sqlserver-complete-gridspertise.database.windows.net:1433;database=COMPLETE_STAGING_GRIDSPERTISE;encrypt=true
+    url: jdbc:sqlserver://sqlserver-complete-gridspertise.database.windows.net:1433;database=TEST_COMPLETE_STAGING_GRIDSPERTISE;encrypt=true
     username: ComplEtE-Staging
     password: C0mpl3t3St4g1ng!123!gridspertise
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     properties:
-      hibernate.default_schema: ComplEtE
+      hibernate.default_schema: dbo
   cloud:
     azure:
       active-directory:
